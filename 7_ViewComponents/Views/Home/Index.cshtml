@@ -1,0 +1,18 @@
+﻿@{
+	//Layout = "_Sablon";
+	//Layout = null;
+}
+<h1>
+	merhaba ben view...
+</h1>
+
+<!--
+View Component'i çağırma
+-->
+<!--MyComponent isimli component sınıfına request atılır...-->
+
+@await Component.InvokeAsync("MyComponent")
+
+<hr />
+
+@await Component.InvokeAsync("MyComponent")

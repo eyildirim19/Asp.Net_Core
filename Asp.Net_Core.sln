@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_WebLifeCycle", "5_WebLife
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_AspNetCore_LifreCycle_Basic", "6_AspNetCore_LifreCycle_Basic\6_AspNetCore_LifreCycle_Basic.csproj", "{E394F786-7780-42AE-93BF-70E72382BAF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_AspNetCoreBasic", "6_AspNetCoreBasic\6_AspNetCoreBasic.csproj", "{91902817-41F6-482E-A8E2-7D8890C0ACBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_AspNetCoreBasic", "6_AspNetCoreBasic\6_AspNetCoreBasic.csproj", "{91902817-41F6-482E-A8E2-7D8890C0ACBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_ViewComponents", "7_ViewComponents\7_ViewComponents.csproj", "{5B21190E-5B26-4DF2-B1D1-5E5ABD5E87A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{91902817-41F6-482E-A8E2-7D8890C0ACBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91902817-41F6-482E-A8E2-7D8890C0ACBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91902817-41F6-482E-A8E2-7D8890C0ACBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B21190E-5B26-4DF2-B1D1-5E5ABD5E87A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B21190E-5B26-4DF2-B1D1-5E5ABD5E87A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B21190E-5B26-4DF2-B1D1-5E5ABD5E87A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B21190E-5B26-4DF2-B1D1-5E5ABD5E87A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
