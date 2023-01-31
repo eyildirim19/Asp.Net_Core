@@ -3,10 +3,10 @@
 *@
 @{
 }
-
-<!--model tanımı yapılır-->
-@model List<string>
-@foreach (var item in Model)
-{
-	<h1>@item</h1>
-}
+@model List<Ogrenci>
+<ul>
+	@foreach (Ogrenci item in Model)
+	{
+		<li>@item.Adi @item.SoyAdi</li>
+	}
+</ul>
