@@ -19,9 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_AspNetCoreBasic", "6_AspN
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_ViewComponents", "7_ViewComponents\7_ViewComponents.csproj", "{5B21190E-5B26-4DF2-B1D1-5E5ABD5E87A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_AspNetRazorPages", "8_ViewModel\8_AspNetRazorPages.csproj", "{5364318F-D7BE-43B9-8FC0-19DDFE02DF59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8_AspNetRazorPages", "8_ViewModel\8_AspNetRazorPages.csproj", "{5364318F-D7BE-43B9-8FC0-19DDFE02DF59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_ViewModel", "9_ViewModel\9_ViewModel.csproj", "{F8A81F4D-B3F3-47E9-8A7B-4A27FC69B83C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9_ViewModel", "9_ViewModel\9_ViewModel.csproj", "{F8A81F4D-B3F3-47E9-8A7B-4A27FC69B83C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_StateManagement_Session", "10_StateManagement_Session\10_StateManagement_Session.csproj", "{694C7F1E-20B5-4EB3-A0B6-59113E362578}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_StateManagementCookie", "10_StateManagementCookie\10_StateManagementCookie.csproj", "{3758E326-396E-41AA-BF0D-DA4C20896574}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{F8A81F4D-B3F3-47E9-8A7B-4A27FC69B83C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8A81F4D-B3F3-47E9-8A7B-4A27FC69B83C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8A81F4D-B3F3-47E9-8A7B-4A27FC69B83C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{694C7F1E-20B5-4EB3-A0B6-59113E362578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{694C7F1E-20B5-4EB3-A0B6-59113E362578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{694C7F1E-20B5-4EB3-A0B6-59113E362578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{694C7F1E-20B5-4EB3-A0B6-59113E362578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3758E326-396E-41AA-BF0D-DA4C20896574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3758E326-396E-41AA-BF0D-DA4C20896574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3758E326-396E-41AA-BF0D-DA4C20896574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3758E326-396E-41AA-BF0D-DA4C20896574}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
