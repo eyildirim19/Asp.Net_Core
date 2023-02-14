@@ -23,9 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8_AspNetRazorPages", "8_Vie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9_ViewModel", "9_ViewModel\9_ViewModel.csproj", "{F8A81F4D-B3F3-47E9-8A7B-4A27FC69B83C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_StateManagement_Session", "10_StateManagement_Session\10_StateManagement_Session.csproj", "{694C7F1E-20B5-4EB3-A0B6-59113E362578}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_StateManagement_Session", "10_StateManagement_Session\10_StateManagement_Session.csproj", "{694C7F1E-20B5-4EB3-A0B6-59113E362578}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_StateManagementCookie", "10_StateManagementCookie\10_StateManagementCookie.csproj", "{3758E326-396E-41AA-BF0D-DA4C20896574}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_StateManagementCookie", "10_StateManagementCookie\10_StateManagementCookie.csproj", "{3758E326-396E-41AA-BF0D-DA4C20896574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_StateManagement_QueryString", "10_StateManagement_QueryString\10_StateManagement_QueryString.csproj", "{B1FDC8FF-28D7-4B56-B748-85350C1BC6D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_StateManagement_QueryString2", "10_StateManagement_QueryString2\10_StateManagement_QueryString2.csproj", "{DBBB02E7-6997-47D7-9FD0-A1E0E98C3E70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,14 @@ Global
 		{3758E326-396E-41AA-BF0D-DA4C20896574}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3758E326-396E-41AA-BF0D-DA4C20896574}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3758E326-396E-41AA-BF0D-DA4C20896574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1FDC8FF-28D7-4B56-B748-85350C1BC6D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1FDC8FF-28D7-4B56-B748-85350C1BC6D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1FDC8FF-28D7-4B56-B748-85350C1BC6D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1FDC8FF-28D7-4B56-B748-85350C1BC6D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBBB02E7-6997-47D7-9FD0-A1E0E98C3E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBBB02E7-6997-47D7-9FD0-A1E0E98C3E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBBB02E7-6997-47D7-9FD0-A1E0E98C3E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBBB02E7-6997-47D7-9FD0-A1E0E98C3E70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
