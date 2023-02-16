@@ -16,8 +16,19 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+app.MapControllerRoute("product",
+      "Urun/{ProductName}-{ProductId}/Detay",
+      defaults: new { controller = "Product", action = "Detail" });
+
+app.MapControllerRoute("product",
+      "Urun/{categoryName}-{categoryId}",
+      defaults: new { controller = "Product", action = "Index" });
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+//app.UseEndpoints(endpoints =>
+//{
+//});
 
 app.Run();

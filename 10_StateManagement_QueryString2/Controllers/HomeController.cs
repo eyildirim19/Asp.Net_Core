@@ -10,10 +10,10 @@ namespace _10_StateManagement_QueryString2.Controllers
             IndexViewModel vm = new IndexViewModel();
 
             // en son gelenler...
-            vm.Pahalilar = dbContext.Products.Take(10).OrderByDescending(c => c.UnitsInStock).ToList();
+            vm.Yeniler = dbContext.Products.Take(10).OrderByDescending(c => c.UnitsInStock).ToList();
 
             //bitmek üzere olanlar...
-            vm.Ucuzlar = dbContext.Products.Take(10).OrderBy(c => c.UnitsInStock).ToList();
+            vm.Azalanlar = dbContext.Products.Take(10).OrderBy(c => c.UnitsInStock).ToList();
 
 
             return View(vm);
