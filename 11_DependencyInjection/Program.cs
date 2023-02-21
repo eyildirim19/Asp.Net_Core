@@ -21,6 +21,9 @@ builder.Services.AddControllersWithViews();
 // dependency injection uygulanmasý...
 builder.Services.AddScoped<IMessage, MessageEng>();
 
+builder.Services.AddTransient<IOgrenci, Tembeller>(); // IOgrenci i = new Tembeller();
+builder.Services.AddTransient<IOgrenci, Caliskanlar>();
+
 // instance servisi ayaða kaldýrýlýr...Asp.Net core'de instancelar services içerisine eklenir...bu yüzden buradan enjecte edilen yapýlara servis denir...
 
 var app = builder.Build();
