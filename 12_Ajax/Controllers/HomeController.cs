@@ -26,5 +26,6 @@ namespace _12_Ajax.Controllers
     {
         public int No { get; set; }
         public string Adi { get; set; }
+        public string OgrenNumarasi { get; set; }
     }
 }
