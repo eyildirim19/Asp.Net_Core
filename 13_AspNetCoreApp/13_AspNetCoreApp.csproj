@@ -14,6 +14,16 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Manage\Data\" />
+    <Folder Include="Areas\Manage\Models\" />
+    <Folder Include="Areas\Test\Controllers\" />
+    <Folder Include="Areas\Test\Data\" />
+    <Folder Include="Areas\Test\Models\" />
+    <Folder Include="Areas\Test\Views\" />
   </ItemGroup>
 
 </Project>
