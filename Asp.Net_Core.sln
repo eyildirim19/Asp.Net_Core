@@ -35,9 +35,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_DependencyInjection", "1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_DependencyInjection2", "11_DependencyInjection2\11_DependencyInjection2.csproj", "{D05A4FD8-7C97-4FEE-AFA6-95B83327D512}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_DependencyInjection_LifeTime", "11_DependencyInjection_LifeTime\11_DependencyInjection_LifeTime.csproj", "{CFCF6A21-AEE5-4C97-8C0A-AB5DA62A5912}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_DependencyInjection_LifeTime", "11_DependencyInjection_LifeTime\11_DependencyInjection_LifeTime.csproj", "{CFCF6A21-AEE5-4C97-8C0A-AB5DA62A5912}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Ajax", "12_Ajax\12_Ajax.csproj", "{4F20A6AA-D38A-4C32-909E-9951C46FB44D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_Ajax", "12_Ajax\12_Ajax.csproj", "{4F20A6AA-D38A-4C32-909E-9951C46FB44D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_AspNetCoreApp", "13_AspNetCoreApp\13_AspNetCoreApp.csproj", "{43EB1C5D-5DD9-41E9-BA58-82C9DD65481F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{4F20A6AA-D38A-4C32-909E-9951C46FB44D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F20A6AA-D38A-4C32-909E-9951C46FB44D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F20A6AA-D38A-4C32-909E-9951C46FB44D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43EB1C5D-5DD9-41E9-BA58-82C9DD65481F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43EB1C5D-5DD9-41E9-BA58-82C9DD65481F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43EB1C5D-5DD9-41E9-BA58-82C9DD65481F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43EB1C5D-5DD9-41E9-BA58-82C9DD65481F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
