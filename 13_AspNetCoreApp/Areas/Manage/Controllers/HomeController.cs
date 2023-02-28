@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace _13_AspNetCoreApp.Areas.Manage.Controllers
 {
     [Area("Manage")]
-    [Authorize()]
+    [Authorize(Roles = "admin")]
     public class HomeController : Controller
     {
         public IActionResult Index()
